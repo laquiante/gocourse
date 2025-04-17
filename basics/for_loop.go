@@ -16,4 +16,21 @@ func main() {
 		fmt.Printf("Index: %d, Value: %d\n", index, value)
 	}
 
+	zeilen := 5
+
+	for k := 1; k <= zeilen; k++ {
+
+		// Mittwoch
+		for j := 1; j < 10; j++ {
+			fmt.Print("*")
+		}
+		for l := 1; l < 5; l++ {
+			fmt.Print("-")
+
+		}
+
+		fmt.Println() // zur naechsten Zeile
+
+	}
+
 }

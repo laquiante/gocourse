@@ -33,4 +33,9 @@ func main() {
 
 	}
 
+	for p := range 20 {
+		fmt.Println(p)
+
+	}
+
 }
